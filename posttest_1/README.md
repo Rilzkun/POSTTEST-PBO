@@ -1,33 +1,47 @@
 # Laporan Posttest 1 - Pemrograman Berbasis Objek
 
 ## Identitas Mahasiswa
-* **Nama:** Rangga Lawe
-* **NIM:** 2409106043
-* **Kelas:** Informatika 2024
-* **Studi:** S1 Informatika (Universitas Mulawarman)
+* **Nama**: Rangga Lawe
+* **NIM**: 2409106043
+* **Kelas**: Informatika
+* **Program Studi**: S1 Informatika
+* **Instansi**: Universitas Mulawarman
 
 ---
 
-## Judul Program
-**Sistem Pendataan Member GYM**
+## 1. Deskripsi Program
+Program ini adalah "sistem pendataan member gym", sebuah aplikasi manajemen member gym berbasis konsol (CLI). Program ini dibuat untuk memenuhi tugas Posttest 1 mata kuliah Pemrograman Berbasis Objek, yang mencakup implementasi dasar CRUD (*Create, Read, Update, Delete*) menggunakan bahasa pemrograman Java.
 
-## Deskripsi Program
-Program ini berfungsi untuk mengelola data member pada sebuah gym. Program menerapkan konsep dasar Pemrograman Berbasis Objek dengan memisahkan model data dan logika utama.
+## 2. Struktur Program
+Program terdiri dari dua file utama yang saling berkaitan:
+* **Member.java**: Class model yang merepresentasikan data member (menyimpan atribut nama dan jenis paket).
+* **Main.java**: Class utama yang menangani alur logika program, input dari user, dan penyimpanan data menggunakan `ArrayList`.
 
-## Fitur Utama (CRUD)
-1. **Create (Tambah Member)**: User dapat menambahkan data nama dan paket member ke dalam list.
-2. **Read (Lihat Daftar)**: Menampilkan seluruh member yang tersimpan di memori.
-3. **Update (Ubah Data)**: Memperbarui informasi member berdasarkan nomor urut di daftar.
-4. **Delete (Hapus Member)**: Menghapus data member tertentu dari sistem.
+## 3. Penjelasan Fitur (CRUD)
+1. **Tambah Member (Create)**: Menambahkan objek member baru ke dalam `ArrayList<Member>`.
+2. **Lihat Daftar (Read)**: Menampilkan seluruh data member yang telah tersimpan di dalam list.
+3. **Ubah Data (Update)**: Memperbarui data member yang sudah ada berdasarkan nomor urut yang dipilih user.
+4. **Hapus Member (Delete)**: Menghapus data member dari list sehingga memori kembali bersih.
 
-## Penjelasan Teknis
-* **ArrayList**: Digunakan sebagai wadah penyimpanan dinamis untuk objek dari class `Member`.
-* **Class Member**: Bertindak sebagai model data (Object) yang menyimpan atribut `nama` dan `paket`.
-* **Input Validation**: Terdapat pengecekan indeks agar program tidak error saat user memasukkan nomor urut yang tidak terdaftar.
-* **Scanner Management**: Menggunakan `input.close()` untuk mencegah resource leak.
+## 4. Cara Menjalankan Program
+1. Buka folder `Posttest_1` melalui terminal atau VS Code.
+2. Compile program dengan perintah: `javac Main.java Member.java`.
+3. Jalankan program dengan perintah: `java Main`.
+4. Ikuti instruksi menu yang muncul di layar.
 
-## Cara Menjalankan
-1. Pastikan file `Main.java` dan `Member.java` berada dalam satu folder.
-2. Buka folder tersebut di VS Code.
-3. Jalankan file `Main.java` melalui tombol Run atau terminal.
-4. Pilih menu 1-5 untuk mulai mengoperasikan sistem.
+## 5. Dokumentasi Program
+### A. Create (Tambah Member)
+Fitur untuk memasukkan data member baru ke dalam sistem.
+![Tambah Member](posttest_1/img/create.png)
+
+### B. Read (Lihat Daftar)
+Menampilkan seluruh daftar member yang sudah terdaftar secara urut.
+![Lihat Daftar](posttest_1/img/read.png)
+
+### C. Update (Ubah Data)
+Memperbarui informasi nama atau paket member yang sudah ada.
+![Update Data](posttest_1/img/update.png)
+
+### D. Delete (Hapus Member)
+Menghapus data member tertentu dari daftar penyimpanan.
+![Hapus Member](posttest_1/img/delete.png)
