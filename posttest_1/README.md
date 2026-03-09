@@ -30,18 +30,15 @@ Program terdiri dari dua file utama yang saling berkaitan:
 4. Ikuti instruksi menu yang muncul di layar.
 
 ## 5. Dokumentasi Program
+
 ### A. Create (Tambah Member)
-Fitur untuk memasukkan data member baru ke dalam sistem.
-![Tambah Member](posttest_1/img/create.png)
+![Tambah Member](img/create.png)
 
 ### B. Read (Lihat Daftar)
-Menampilkan seluruh daftar member yang sudah terdaftar secara urut.
-![Lihat Daftar](posttest_1/img/read.png)
+![Lihat Daftar](img/read.png)
 
 ### C. Update (Ubah Data)
-Memperbarui informasi nama atau paket member yang sudah ada.
-![Update Data](posttest_1/img/update.png)
+![Update Data](img/update.png)
 
 ### D. Delete (Hapus Member)
-Menghapus data member tertentu dari daftar penyimpanan.
-![Hapus Member](posttest_1/img/delete.png)
+![Hapus Member](img/delete.png)
