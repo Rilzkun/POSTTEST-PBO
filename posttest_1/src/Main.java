@@ -9,10 +9,10 @@ public class Main {
 
         do {
             System.out.println("\n=== MULAWARMAN FITNESS SYSTEM ===");
-            System.out.println("1. Tambah Member (Create)");
-            System.out.println("2. Lihat Daftar (Read)");
-            System.out.println("3. Ubah Data (Update)");
-            System.out.println("4. Hapus Member (Delete)");
+            System.out.println("1. Tambah Member");
+            System.out.println("2. Lihat Daftar");
+            System.out.println("3. Ubah Data");
+            System.out.println("4. Hapus Member");
             System.out.println("5. Keluar");
             System.out.print("Pilih Menu: ");
             pilihan = input.nextInt();
